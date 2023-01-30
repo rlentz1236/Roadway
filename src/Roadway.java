@@ -18,7 +18,7 @@ public class Roadway {
 	  
 	  
 	  //Determine Highway Type
-	  if(highwayNumber <= 99 && highwayNumber > 0){
+	  if(highwayNumber < 99 && highwayNumber > 0){
 		  	   
 		  highwayType = "Primary";  
 		  
@@ -34,7 +34,7 @@ public class Roadway {
 	  
 	  
 	  //Determine Highway Direction
-	  if(highwayNumber%2 == 0){
+	  if(highwayNumber%2 == 1){
 		  
 	     highwayDirection = "east/west";
 	     
